@@ -1,0 +1,14 @@
+{
+	"version": "1",
+	"author": "Test",
+	"mods": [
+		{
+			"type": "mod",
+			"version": "1.0.0",
+			"name": "TestSuite",
+			"displayName": "Test Suite",
+			"author": "MonsiuerMeh",
+			"modURL": "https://github.com/monsieurmeh/TLDModCompatibilityChecker",
+		}
+	]
+}
