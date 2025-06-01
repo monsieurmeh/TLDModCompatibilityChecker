@@ -17,3 +17,18 @@
 [HarmonyPatch(typeof(TLDModCompatibilityChecker), nameof(TypeOfNameOf))]
 [HarmonyPatch(typeof(TLDModCompatibilityChecker), nameof(TypeOfNameOfType), new Type[] { typeof(int), typeof(string) })]
 [HarmonyPatch(typeof(TLDModCompatibilityChecker))]
+[HarmonyPatch("TLDModCompatibilityChecker", "TLDModCompatibilityChecker.NameNameWithClass")]
+[HarmonyPatch("TLDModCompatibilityChecker", "TLDModCompatibilityChecker.NameNameTypeWithClass", new Type[] { typeof(int), typeof(string) })]
+[HarmonyPatch("TLDModCompatibilityChecker", nameof(TLDModCompatibilityChecker.NameNameOfWithClass))]
+[HarmonyPatch("TLDModCompatibilityChecker", nameof(TLDModCompatibilityChecker.NameNameOfTypeWithClass), new Type[] { typeof(int), typeof(string) })]
+[HarmonyPatch(nameof(TLDModCompatibilityChecker), "TLDModCompatibilityChecker.NameOfNameWithClass")]
+[HarmonyPatch(nameof(TLDModCompatibilityChecker), "TLDModCompatibilityChecker.NameOfNameTypeWithClass", new Type[] { typeof(int), typeof(string) })]
+[HarmonyPatch(nameof(TLDModCompatibilityChecker), nameof(TLDModCompatibilityChecker.NameOfNameOfWithClass))]
+[HarmonyPatch(nameof(TLDModCompatibilityChecker), nameof(TLDModCompatibilityChecker.NameOfNameOfTypeWithClass), new Type[] { typeof(int), typeof(string) })]
+[HarmonyPatch(typeof(TLDModCompatibilityChecker), "TLDModCompatibilityChecker.TypeOfNameWithClass")]
+[HarmonyPatch(typeof(TLDModCompatibilityChecker), "TLDModCompatibilityChecker.TypeOfNameTypeWithClass", new Type[] { typeof(int), typeof(string) })]
+[HarmonyPatch(typeof(TLDModCompatibilityChecker), nameof(TLDModCompatibilityChecker.TypeOfNameOfWithClass))]
+[HarmonyPatch(typeof(TLDModCompatibilityChecker), nameof(TLDModCompatibilityChecker.TypeOfNameOfTypeWithClass), new Type[] { typeof(int), typeof(string) })]
+[HarmonyPatch(typeof(TLDModCompatibilityChecker.Intermediate1.Intermediate2.Intermediate3), nameof(Intermediate2.Intermediate3.TypeOfNameOfWithIntermediates))]
+
+
