@@ -1,6 +1,6 @@
 using HarmonyLib;
 
-[HarmonyPatch("MethodName")]
+[HarmonyPatch("TLDModCompatibilityChecker.Name")]
 public class PatchMethodOnly
 {
 }
