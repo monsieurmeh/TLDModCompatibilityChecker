@@ -1,6 +1,6 @@
 using HarmonyLib;
 
-[HarmonyPatch(typeof(Foo.Bar))]
+[HarmonyPatch(typeof(TLDModCompatibilityChecker))]
 public class PatchTypeOnly
 {
 }
