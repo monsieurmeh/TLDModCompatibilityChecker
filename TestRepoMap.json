@@ -4,7 +4,7 @@
 	"latestGameBreaking": "0.9.0",
 	"melonloaderVersion": "0.6.6",
 	"lists": [
-		"https://raw.githubusercontent.com/monsieurmeh/TLDModCompatibilityChecker/refs/heads/main/TestModMap.json"
+		"https://raw.githubusercontent.com/monsieurmeh/TLDModCompatibilityChecker/refs/heads/main/TestModMapJson.json"
 	],
 	"oldlists": [
 		"someOldListURL"
