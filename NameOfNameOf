@@ -1,0 +1,6 @@
+using HarmonyLib;
+
+[HarmonyPatch(nameof(TLDModCompatibilityChecker), nameof(TLDModCompatiblityChecker.NameOfNameOf))]
+public class PatchMethodArgs
+{
+}
