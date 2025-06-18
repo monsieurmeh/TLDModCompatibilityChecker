@@ -29,7 +29,6 @@
 [HarmonyPatch(typeof(TLDModCompatibilityChecker), "TLDModCompatibilityChecker.TypeOfNameTypeWithClass", new Type[] { typeof(int), typeof(string) })]
 [HarmonyPatch(typeof(TLDModCompatibilityChecker), nameof(TLDModCompatibilityChecker.TypeOfNameOfWithClass))]
 [HarmonyPatch(typeof(TLDModCompatibilityChecker), nameof(TLDModCompatibilityChecker.TypeOfNameOfTypeWithClass), new Type[] { typeof(int), typeof(string) })]
-[HarmonyPatch(typeof(TLDModCompatibilityChecker.Intermediate1.Intermediate2.Intermediate3), nameof(Intermediate2.Intermediate3.TypeOfNameOfWithIntermediates))]
 [HarmonyPatch("TLDModCompatibilityChecker.Intermediate1.Intermediate2.Intermediate3", "Intermediate2.Intermediate3.NameNameWithIntermediates")]
 [HarmonyPatch("TLDModCompatibilityChecker.Intermediate1.Intermediate2.Intermediate3", "Intermediate2.Intermediate3.NameNameTypeWithIntermediates", new Type[] { typeof(int), typeof(string) })]
 [HarmonyPatch("TLDModCompatibilityChecker.Intermediate1.Intermediate2.Intermediate3", nameof(Intermediate2.Intermediate3.NameNameOfWithIntermediates))]
